@@ -32,7 +32,7 @@
     background-color: white; /* พื้นหลังสีขาว */
     padding: 20px; /* เพิ่ม padding */
     border-radius: 10px; /* ทำมุมให้โค้ง */
-    width: 100%; /* ทำให้เต็มความกว้าง */
+    width: 90%; /* ทำให้เต็มความกว้าง */
 }
 
 .sushi h2 {

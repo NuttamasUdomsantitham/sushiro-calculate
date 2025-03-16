@@ -1,0 +1,43 @@
+.main {
+    display: flex;
+    flex-direction: column; /* จัดให้แต่ละเซ็ตขึ้นบรรทัดใหม่ */
+    align-items: center; /* จัดให้อยู่กลางหน้าจอ */
+    gap: px; /* เว้นระยะระหว่างแต่ละเซ็ต */
+    margin-top: 70px;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* จัดให้ทุกองค์ประกอบใน .container อยู่ตรงกลางในแนวตั้ง */
+    justify-content: space-between; /* ระยะห่างระหว่าง img และ QuantityInput */
+    gap: 5px; /* ระยะห่างระหว่างรูป, ข้อความ, และ QuantityInput */
+    height: 100px; /* กำหนดความสูงให้เท่ากันสำหรับทุกเซ็ต */
+    width: 100%; /* ให้ .container ขยายเต็มความกว้าง */
+    padding-right: 30px;
+}
+
+.text {
+    margin: 0;
+    display: flex;
+    align-items: center; /* จัดให้ข้อความอยู่ตรงกลางในแนวตั้ง */
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.QuantityInput {
+    margin-left: auto; /* ให้ QuantityInput อยู่ชิดขวา */
+}
+
+.sushi {
+    background-color: white; /* พื้นหลังสีขาว */
+    padding: 20px; /* เพิ่ม padding */
+    border-radius: 10px; /* ทำมุมให้โค้ง */
+    width: 100%; /* ทำให้เต็มความกว้าง */
+}
+
+.sushi h2 {
+    text-align: left; /* จัดตำแหน่งข้อความให้ชิดซ้าย */
+    margin: 0; /* เอาระยะห่างของ h2 ออก */
+    padding-left: 10px;
+    padding-top: 5px;
+}

@@ -1,3 +1,3 @@
 # sushiro-calculate
 
-Velcel : https://sushiro-calculate.vercel.app/
+Vercel : https://sushiro-calculate.vercel.app/
